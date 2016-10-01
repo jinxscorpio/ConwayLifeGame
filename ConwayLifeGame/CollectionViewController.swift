@@ -46,7 +46,7 @@ class CollectionViewController: UICollectionViewController {
         var decisionMakers = [0, 0, 0, 0, 0, 0, 0, 0]
             
         for index in 0...cellCount - 1 {
-                
+            
             if index - countCol - 1 < 0 {
                 if 0 == arc4random() % 2 {
                     decisionMakers[0] = 1
